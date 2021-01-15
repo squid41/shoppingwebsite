@@ -1,0 +1,192 @@
+h2{
+  text-align:center;
+  font-size: 50px;
+}
+.navbar{
+//  cursor:pointer;
+  display: flex;
+  height: 70px;
+  position: sticky;
+background-color: grey;
+  align-items: center;
+  justify-content: space-between;
+padding-left: 30px;
+padding-right: 30px;
+position: relative;
+}
+
+.fas{
+  cursor:pointer;
+  font-size: 20px;
+}
+.cart-items{
+  position: absolute;
+  background-color: coral;
+  box-sizing: border-box;
+  border-radius: 100px;
+  cursor:pointer;
+
+}
+.product-center{
+  display: grid;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+.imagewrap{
+position: relative;
+background-color: grey;
+}
+.bed{
+  height: 140px;
+  width: 250px;
+}
+.bag-btn{
+  letter-spacing: 2px;
+position: absolute;
+right: 0;
+top: 70%;
+  color: white;
+  background-color: coral;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.8s;
+  transform: translateX(100%);
+  opacity: 0;
+}
+.token{
+  cursor: pointer;
+}
+.imagewrap:hover .bag-btn{
+transform: translateX(0);
+opacity: 1;
+}
+.imagewrap:hover .bed{
+opacity: 0.5;
+}
+.cartdisplay{
+  color: white;
+  padding: 10px;
+  z-index: 3;
+  min-height: 100vh;
+  width: 30%;
+  //background-color: pink;
+}
+.carthead1{
+  text-align: center;
+}
+.cartdisplayint{
+//  background-color: yellow;
+  display: grid;
+   grid-template-columns: auto 1fr auto;
+   justify-content: space-between;
+}
+.cartcontent{
+  padding-left: 2%;
+}
+.cartbody{
+  display: flex;
+  flex-direction: row;
+}
+.image3{
+  background-color: white;
+  width: 100px;
+}
+.incre-decre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgname , .price{
+  font-weight: bolder;
+}
+.delete{
+  color: yellow;
+  cursor: pointer;
+}
+.itemcount{
+  justify-content: center;
+  text-align: center;
+}
+.cartdisplay{
+  position:fixed;
+  top: 10px;
+  right: 0;
+z-index: 2;
+background-color: black;
+visibility: hidden;
+}
+.amount1{
+  text-align: center;
+}
+----------------------
+body{
+  font-size:17px;
+
+}
+.modal{
+  justify-content: center;
+}
+.but{
+  position: relative;
+
+  background-color: rgb(300,50,40);
+
+}
+.but:hover{
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+#modal{
+  background-color: rgba(30,40,50,0.9);
+  display: block;
+  position: fixed;height: 100%;
+  width: 100%;
+  justify-content: center;
+  z-index: 1;
+  animation-name: modalopen;
+  animation-duration: 5s;
+}
+.modelcontent{
+  margin: 15% auto;
+  width: 50%;
+}
+.mod-head{
+  position: relative;
+  background-color: coral;
+  display:flex;
+  flex-direction: row;
+
+}
+.r2{
+  position: absolute;
+  float: right;
+  margin-left: 96%;
+  margin-top:30px;;
+  font-size: 15px;
+}
+.r2:hover, .r2:focus{
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.mod-body{
+  padding: 0px;
+
+}
+.mod-foot{
+  background-color: coral;
+  padding: 0px;
+}
+.root1{
+  background-color: black;
+  color: white;
+}
+@keyframes modalopen {
+from{opacity: 0}to {opacity: 1};
+}

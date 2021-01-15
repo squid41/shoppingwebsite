@@ -1,0 +1,63 @@
+{"items":[
+{
+"id":1,
+"title": "queen bed",
+ "image": "images/img5.png",
+ "price":20000
+},
+{
+  "id":2,
+  "title": "king bed",
+   "image": "images/img11.png",
+   "price": 20000
+},
+{
+"id":3,
+"title": "prince bed",
+ "image": "images/img12.png",
+ "price":  20000
+},
+{
+  "id":4,
+  "title": "princess bed",
+   "image": "images/img13.png",
+   "price": 20000
+},
+{
+"id":5,
+"title": "baby prince bed",
+ "image": "images/img14.png",
+ "price": 20000
+},
+{
+  "id":6,
+  "title": "baby princes bed",
+   "image": "images/img15.png",
+   "price":  20000
+},
+{
+"id":7,
+"title": "emperor bed",
+ "image": "images/img16.png",
+ "price":  20000
+},
+{
+  "id":8,
+  "title": "queen bed comfy",
+   "image": "images/img17.png",
+   "price":  20000
+},
+{
+"id":9,
+"title": "ultra spring bed",
+ "image": "images/img20.png",
+ "price": 20000
+},
+{
+  "id":10,
+  "title": "scarlon bed",
+   "image": "images/img21.png",
+   "price": 20000
+}
+]
+}
